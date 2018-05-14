@@ -10,7 +10,7 @@ if len(sys.argv) == 2:
 else:
         hostip = "localhost"
 print "Connecting to... ", hostip
-connection = MySQLdb.connect (host = hostip , port = 3306, user = "root", passwd = "root", db = "bankaccounts")
+connection = MySQLdb.connect (host = hostip , port = 3306, user = "root", passwd = "Root_123", db = "bankaccounts")
 # prepare a cursor object using cursor() method
 cursor = connection.cursor ()
 # execute the SQL query using execute() method.
